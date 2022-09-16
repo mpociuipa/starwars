@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity wars - starwars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Specificity wars - starwars</h1>
+    <h2>H2 element</h2>
+    <main>
+        <h2>H2 element</h2>
+        <h2 class="element">H2 element + class</h2>
+        <h2 class="element element-2">H2 class + class</h2>
+        <h2 id="element" class="element element-2">H2 + id</h2>
+        <h2 style="color: rebeccapurple" id="element" class="element element-2">H2 + style attribute</h2>
+    </main>
+
+    <section>
+        <h1>css struktura</h1>
+        <article class="article-1">
+            <p>
+                <img src="code-solid.svg" alt="code-solid"> 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus eum quidem ab nihil repudiandae, nobis, corrupti incidunt maiores soluta adipisci velit provident culpa voluptate deleniti? Nostrum quam eaque ea?</p>
+            <img src="https://images.unsplash.com/photo-1663253313029-ce4a035dbbe2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="sand">
+        </article>
+        <article class="article-2">
+            <p>
+                <img src="code-branch-solid.svg"
+                alt="code-branch-solid">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus eum quidem ab nihil repudiandae, nobis, corrupti incidunt maiores soluta adipisci velit provident culpa voluptate deleniti? Nostrum quam eaque ea?</p>
+            <img src="https://images.unsplash.com/photo-1488188840666-e2308741a62f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80" alt="sand">
+        </article>
+    </section>
+</body>
+</html>
